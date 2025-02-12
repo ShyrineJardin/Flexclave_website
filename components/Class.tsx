@@ -48,7 +48,7 @@ const Class = () => {
 
   return (
     <div id="class" className="container mx-auto mt-20 text-center">
-      <h1 className="pt-20 text-5xl font-semibold mb-5">Our Classes</h1>
+      <h1 className="pt-20 text-5xl font-semibold mb-5">Our <span className="text-pink-500">Classes</span></h1>
       <p className="mb-20 text-lg">At Flex Clave, we’re here to support every step of your journey, whatever season you’re in. Let’s begin together.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {program.map((yoga, index) => (

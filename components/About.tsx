@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div id="about" className="container mt-20 px-6">
-      <h1 className="text-center font-semibold text-5xl pt-20">About Flex Clave</h1>
+      <h1 className="text-center font-semibold text-5xl pt-20">About <span className='text-pink-500'>Flex Clave</span></h1>
       <div className="flex flex-col md:flex-row mt-10 justify-between gap-7 items-center">
 
         {/* Text Section */}

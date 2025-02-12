@@ -33,7 +33,7 @@ const testimonials = [
 const Testimony = () => {
     return (
         <div id='testimony' className='mt-20 mb-20 px-4 bg-pink-50'>
-            <h1 className='text-center font-semibold text-5xl pt-20 pb-10'>Members Testimonials</h1>
+            <h1 className='text-center font-semibold text-5xl pt-20 pb-10'>Members <span className='text-pink-500'>Testimonials</span></h1>
             <div className='mt-20 mx-auto w-full max-w-6xl'>
                 <Carousel
                     arrows={false}

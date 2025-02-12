@@ -3,7 +3,7 @@ import React from 'react';
 const Location = () => {
   return (
     <div id="location" className="container mt-20 mb-20">
-      <h1 className="text-center font-semibold text-5xl pt-20 pb-10">Our Studios</h1>
+      <h1 className="text-center font-semibold text-5xl pt-20 pb-10">Our <span className='text-pink-500'>Studios</span></h1>
 
       {/* Las Piñas - Go Tan Building */}
       <div data-aos="fade-right" className="flex flex-col md:flex-row mt-10 justify-between gap-7 items-center">

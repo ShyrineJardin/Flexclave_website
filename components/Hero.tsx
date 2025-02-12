@@ -16,7 +16,7 @@ const Hero = () => {
 
       {/* Content Overlay */}
       <div data-aos="fade-up" className="relative z-10 text-center text-white px-6">
-        <h1 className="text-4xl md:text-6xl font-bold uppercase">Welcome to Flex Clave</h1>
+        <h1 className="text-4xl md:text-6xl font-semibold uppercase">Welcome to Flex Clave</h1>
         <p className="mt-4 text-lg md:text-2xl font-light">Find Your Balance, Strength, and Inner Peace</p>
         <button className="mt-6 px-6 py-3 bg-pink-500 text-white font-semibold rounded-lg hover:bg-black hover:text-white transition">
           Book a Class
