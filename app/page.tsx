@@ -21,10 +21,10 @@ const page = () => {
         easing:'ease',
         once: true,
         anchorPlacement:'top-bottom'
-      })
-    }
+      });
+    };
     initAOS();
-  },[])
+  },[]);
 
 
   return (
@@ -38,6 +38,6 @@ const page = () => {
       <Closing/>
     </div>
   )
-}
+};
 
 export default page
