@@ -1,14 +1,14 @@
-"use client";
+'use client'
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { navLinks } from "@/constant/Constant";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
 type Props = {
-  openNav: () => void
+  openNav: () => void;
 }
 
-const Navbar = ({openNav}:Props) => {
+const Navbar = ({ openNav }: Props) => {
   const [navBg, setNavBg] = useState(false);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const Navbar = ({openNav}:Props) => {
   }, []);
 
   return (
-    <nav className={`w-full h-[10vh] z-[1000] transition-all duration-300 fixed bg-black/60`}>
+    <nav className={`w-full h-[10vh] z-[1000] transition-all duration-300 fixed ${navBg ? 'bg-black' : 'bg-black/60'}`}>
       <div className="container flex items-center justify-between h-full w-[90%] xl:w-[80%] mx-auto">
         <img src="/lotus.png" alt="logo" className="h-12 w-12" />
 

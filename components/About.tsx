@@ -2,12 +2,12 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id='about' className='container mt-20 px-6'>
-      <h1 className='text-center font-semibold text-5xl pt-20'>About Flex Clave</h1>
-      <div className='flex flex-col md:flex-row mt-10 justify-between gap-7 items-center'>
+    <div id="about" className="container mt-20 px-6">
+      <h1 className="text-center font-semibold text-5xl pt-20">About Flex Clave</h1>
+      <div className="flex flex-col md:flex-row mt-10 justify-between gap-7 items-center">
 
         {/* Text Section */}
-        <div  data-aos="fade-right" className='flex-1 text-lg leading-relaxed'>
+        <div data-aos="fade-right" className="flex-1 text-lg leading-relaxed">
           <p>
             At <span className="font-semibold">Flex Clave</span>, we believe that yoga is more than just movement—it’s a journey to inner peace, strength, and self-discovery. Our studio is a sanctuary where individuals of all levels can reconnect with their mind, body, and spirit.  
             <br /><br />
@@ -18,11 +18,11 @@ const About = () => {
         </div>
 
         {/* Image Section */}
-        <div data-aos="fade-left" className='flex-1'>
+        <div data-aos="fade-left" className="flex-1">
           <img 
             src="/yoga_mobile.jpg" 
             alt="Yoga about img" 
-            className='w-full h-auto rounded-lg shadow-lg object-cover'
+            className="w-full h-auto rounded-lg shadow-lg object-cover"
           />
         </div>
 
