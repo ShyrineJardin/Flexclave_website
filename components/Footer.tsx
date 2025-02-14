@@ -1,6 +1,7 @@
-import React from 'react'
-import { FaClock, FaEnvelope, FaFacebook, FaInstagram, FaPhoneAlt, FaTwitter } from 'react-icons/fa'
-import Link from 'next/link'
+import React from "react";
+import Image from "next/image";
+import { FaClock, FaEnvelope, FaFacebook, FaInstagram, FaPhoneAlt, FaTwitter } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className="container mt-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <img src="/lotus.png" alt="logo" className="h-12 w-12" />
+            <Image src="/lotus.png" alt="logo" width={48} height={48} priority />
             <p className="mt-4 leading-[2rem] w-[80%] text-white">Find Your Balance, Strength, and Inner Peace</p>
           </div>
 
@@ -48,20 +49,14 @@ const Footer = () => {
 
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <span>Socials</span>
-            <Link href="#" className="text-white hover:text-pink-500">
-              <FaFacebook />
-            </Link>
-            <Link href="#" className="text-white hover:text-pink-500">
-              <FaTwitter />
-            </Link>
-            <Link href="#" className="text-white hover:text-pink-500">
-              <FaInstagram />
-            </Link>
+            <Link href="#" className="text-white hover:text-pink-500"><FaFacebook /></Link>
+            <Link href="#" className="text-white hover:text-pink-500"><FaTwitter /></Link>
+            <Link href="#" className="text-white hover:text-pink-500"><FaInstagram /></Link>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

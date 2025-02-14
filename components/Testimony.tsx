@@ -38,7 +38,7 @@ const Testimony = () => {
                 <Carousel
                     arrows={false}
                     autoPlay
-                    autoPlaySpeed={5000}
+                    autoPlaySpeed={3000}
                     infinite
                     responsive={responsive}
                     showDots
