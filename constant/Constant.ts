@@ -1,4 +1,6 @@
+import Link from 'next/link';
 
+ 
  export const navLinks = [
     {
         id:1,
