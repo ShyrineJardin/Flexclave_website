@@ -11,7 +11,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
 
-const Page = () => {
+const page = () => {
 
   useEffect(()=>{
     const initAOS =async () =>{
@@ -40,4 +40,4 @@ const Page = () => {
   )
 };
 
-export default Page
+export default page
