@@ -15,7 +15,7 @@ const About = () => {
             <br /><br />
             With expert instructors, a welcoming community, and a peaceful atmosphere, we offer a space for growth, mindfulness, and holistic well-being. Whether you&apos;re seeking to improve flexibility, build strength, or simply find a moment of stillness, our classes are designed to support you every step of the way.  
             <br /><br />
-            <span className="font-semibold">Join us at Flex Clave</span> and embrace the harmony between movement and mindfulness. 🌿✨
+            <span className="font-semibold">Join us at Flex Clave</span> and embrace the harmony between movement and mindfulness.
           </p>
         </div>
 

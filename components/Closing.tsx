@@ -16,7 +16,7 @@ const Closing = () => {
       {/* Closing Quote */}
       <div data-aos="fade-down" className="relative z-10 px-6">
         <h2 className="text-4xl md:text-5xl font-semibold">
-          "Yoga is the journey of the self, through the self, to the self."
+        &quot;Yoga is the journey of the self, through the self, to the self.&quot;
         </h2>
         <p className="text-lg mt-4 font-light">— The Bhagavad Gita</p>
       </div>
